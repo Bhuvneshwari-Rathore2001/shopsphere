@@ -6,6 +6,10 @@ export default {
       boxShadow: {
         custom: '0 4px 6px rgba(0, 0, 0, 0.1)',
       },
+      backgroundImage: {
+        myImage:
+          'url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg")',
+      },
     },
   },
   plugins: [],
