@@ -8,7 +8,7 @@ import {
 import { FaUser } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
-const user = { _id: 'jiji', role: 'admin' };
+const user = { _id: '', role: '' };
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -16,7 +16,7 @@ const Header = () => {
     setIsOpen(false);
   };
   return (
-    <nav className='flex justify-end gap-5 items-center px-4 py-5 shadow-custom'>
+    <nav className='flex justify-end gap-5 items-center px-4 py-5 shadow-custom bg-white'>
       <Link
         to={'/'}
         className='text-[rgb(46,46,46) text-[rgb(46,46,46) hover:text-[rgb(0,104,136)]'

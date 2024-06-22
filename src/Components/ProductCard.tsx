@@ -4,7 +4,7 @@ type ProductsProps = {
   photo: string;
   name: string;
   price: number;
-  stock?: number;
+  stock: number;
   handler: () => void;
 };
 const ProductCard = ({
@@ -30,6 +30,10 @@ const ProductCard = ({
         </button>
       </div>
     </div>
+
+
+
+    
   );
 };
 

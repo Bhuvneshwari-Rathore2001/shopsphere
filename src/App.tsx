@@ -1,11 +1,13 @@
 import { Suspense, lazy } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Header from './Components/header.tsx';
-import Loader from './Components/loader';
+import Header from './Components/Header.tsx';
+import Loader from './Components/Loader.tsx';
+
 
 const Home = lazy(() => import('./pages/home'));
 const Search = lazy(() => import('./pages/search'));
 const Cart = lazy(() => import('./pages/cart'));
+const Shipping = lazy(() => import('./pages/shipping.tsx'));
 
 //  Admin Routes Importing
 
@@ -36,9 +38,15 @@ function App() {
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
+          {/*if not login or login both case  */}
           <Route path='/' element={<Home />} />
           <Route path='/search' element={<Search />} />
           <Route path='/cart' element={<Cart />} />
+
+          {/* Logged In User Routes */}
+          <Route>
+            <Route path='/shipping' element={<Shipping />} />
+          </Route>
 
           {/* Admin Routes */}
 

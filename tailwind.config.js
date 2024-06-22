@@ -10,6 +10,7 @@ export default {
         myImage:
           'url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg")',
       },
+      
     },
   },
   plugins: [],
