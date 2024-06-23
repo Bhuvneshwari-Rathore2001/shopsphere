@@ -28,7 +28,7 @@ const Shipping = () => {
       </button>
       <div className='flex items-center justify-center w-full'>
         <form className='max-w-md w-full flex flex-col items-center justify-stretch gap-8 p-8'>
-          <h1 className='m-8 text-center text-2xl uppercase'>
+          <h1 className='m-8 text-center text-2xl uppercase text-[#4a4848]'>
             Shipping Address
           </h1>
           <input
@@ -62,7 +62,7 @@ const Shipping = () => {
           />
 
           <select
-            className='px-1 py-2 w-full bg-inherit border-nome border-[rgba(31,31,31,0.351)] text-sm'
+            className='px-1 py-2 w-full bg-inherit border text-[#4a4848] border-[rgba(31,31,31,0.351)] text-sm'
             name='country'
             required
             value={shippingInfo.country}

@@ -40,7 +40,7 @@ const Cart = () => {
   }, [couponCode]);
 
   return (
-    <div className='cart px-8 py-16 flex flex-row justify-between items-center gap-16 h-3/5'>
+    <div className='cart px-4 py-16 flex flex-row items-center gap-16 h-3/5 bg-gray-50'>
       <main className='w-3/5 flex flex-col h-screen overflow-y-auto '>
         {cartItems.length > 0 ? (
           cartItems.map((item, index) => <CartItem key={index} {...item} />)
