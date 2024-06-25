@@ -15,7 +15,7 @@ const Home = () => {
       <main className='flex flex-1 gap-4'>
         <ProductCard
           productId='3433'
-          photo='https://tse3.mm.bing.net/th?id=OIP.pHwvjpxWF6ivMJuTuDQqaQAAAA&pid=Api&P=0&h=180'
+          photo='https://www.pcworld.com/wp-content/uploads/2022/07/primary-1.jpg?quality=50&strip=all'
           name='Macbook'
           price={545}
           stock={5656}
