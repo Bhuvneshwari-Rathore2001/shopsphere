@@ -16,7 +16,7 @@ const Search = () => {
   return (
     <div className='flex flex-1'>
       <div className='flex flex-col min-h-[90vh] w-[450px] px-10'>
-        <h2 className='text-yellow-500 text-3xl font-bold pt-10 pb-5'>
+        <h2 className='text-gray-800 text-3xl font-bold pt-10 pb-5'>
           Filters
         </h2>
         <div className='pt-10 pb-5 flex flex-col gap-10'>
@@ -62,7 +62,7 @@ const Search = () => {
         </div>
       </div>
       <div className='border-l border-gray-300 w-full'>
-        <header className='pt-10 pl-10 pb-5 border-b border-gray-300 text-yellow-500 w-full'>
+        <header className='pt-10 pl-10  text-gray-800 w-full'>
           <h2 className='text-3xl font-bold '>Products</h2>
         </header>
         <div className='px-10 flex flex-col gap-0'>
@@ -74,7 +74,7 @@ const Search = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
           <div className='flex flex-col gap-10 my-10'>
-            <div className='flex flex-wrap h-[80vh] overflow-auto justify-start items-start gap-5'>
+            <div className='flex flex-wrap justify-start items-start gap-5'>
               <ProductCard
                 productId='3433'
                 photo='https://www.stylesgap.com/wp-content/uploads/2014/08/Latest-Indian-Ethnic-Wear-Dresses-Stylish-Suits-Formal-Collection-for-Women-24.jpg'

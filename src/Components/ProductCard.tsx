@@ -20,7 +20,7 @@ const ProductCard = ({
   return (
     <section className='relative group'>
       <div className='flex flex-col  gap-0 relative w-auto h-auto group'>
-        <div className='bg-orange-300 h-44 w-[240px]'></div>
+        <div className='bg-yellow-600 h-44 w-[240px]'></div>
         <div className='bg-gray-800 h-32 w-[240px]'></div>
       </div>
 

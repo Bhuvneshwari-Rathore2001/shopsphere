@@ -8,9 +8,8 @@ export default {
       },
       backgroundImage: {
         myImage:
-          'url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg")',
+          'url("https://img.freepik.com/premium-photo/beautiful-asian-woman-carrying-colorful-bags-shopping-online-with-mobile-phone_8087-3877.jpg")',
       },
-      
     },
   },
   plugins: [],

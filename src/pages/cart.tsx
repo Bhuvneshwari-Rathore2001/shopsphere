@@ -148,7 +148,7 @@ const Cart = () => {
                   here
                 </p>
               </header>
-              <section className='p-10 flex flex-col gap-10'>
+              <section className='p-10 flex flex-col gap-10 overflow-y-auto h-[90vh]'>
                 {cartItems.map((item, index) => (
                   <CartItem key={index} {...item} toggle={toggleModal} />
                 ))}

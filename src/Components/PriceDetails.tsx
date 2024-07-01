@@ -28,7 +28,7 @@ function PriceDetails() {
   return (
     <div className=''>
       <header className='pt-10 pl-10 pb-5'>
-        <h2 className='text-3xl font-bold '>
+        <h2 className='text-3xl font-bold text-gray-800'>
           Price <span className='text-yellow-500'>Details</span>
         </h2>
         <p className='text-md mt-2 text-gray-700'>

@@ -40,7 +40,9 @@ function App() {
   return (
     <Router>
       {/* Header */}
-      <Header />
+      <div className='sticky top-0 left-0'>
+        <Header />
+      </div>
       <Suspense fallback={<Loader />}>
         <Routes>
           {/*if not login or login both case  */}
