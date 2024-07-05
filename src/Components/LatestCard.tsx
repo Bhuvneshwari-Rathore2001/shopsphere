@@ -9,12 +9,12 @@ type latestCardProps = {
   handler: () => void;
 };
 const LatestCard = ({
-  productId,
+  // productId,
   photo,
   name,
   desc,
   price,
-  stock,
+  // stock,
   handler,
 }: latestCardProps) => {
   return (

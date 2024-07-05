@@ -6,7 +6,7 @@ const Shipping = () => {
 
     const navigate = useNavigate()
 
-  const [shippingInfo, setShippingInfo] = useState({
+  const [shippingInfo] = useState({
     address: '',
     city: '',
     state: '',
